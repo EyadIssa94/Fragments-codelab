@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/my_fragment_color"
+    tools:context=".RatingBar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIKE THE SONG?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="3dp"/>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@android:style/Widget.DeviceDefault.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="6"
+        android:padding="7dp"
+        android:rating="2.5"
+        android:stepSize="0.5" />
+
+</LinearLayout>

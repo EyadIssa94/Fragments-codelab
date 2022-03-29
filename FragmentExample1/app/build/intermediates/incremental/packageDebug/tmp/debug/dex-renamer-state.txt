@@ -1,0 +1,4 @@
+#Tue Mar 29 15:40:24 EDT 2022
+base.0=/Users/consultant/Documents/Training_0322_22/FragmentExample/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
